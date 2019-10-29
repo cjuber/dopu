@@ -1,0 +1,194 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:900|Kanit:800&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+.login-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+  height: 100%;
+}
+
+.loginTitle {
+  font-size: 80px;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 50px;
+  color: #3AC8EC;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #FF8580;
+  width: 20%;
+  height: 40px;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 10px;
+  color: #3AC8EC;
+  -webkit-transition: width .5s ease-out;
+  transition: width .5s ease-out;
+}
+
+.input::-webkit-input-placeholder {
+  color: #3AC8EC;
+}
+
+.input:-ms-input-placeholder {
+  color: #3AC8EC;
+}
+
+.input::-ms-input-placeholder {
+  color: #3AC8EC;
+}
+
+.input::placeholder {
+  color: #3AC8EC;
+}
+
+.input:focus {
+  background: #E8F0FE;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  margin-top: 50px;
+  border: none;
+  background: #3AC8EC;
+  width: 25%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: "Heebo", sans-serif;
+  color: #368599;
+}
+
+.newParentBtn {
+  border: none;
+  background: #3AC8EC;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+  color: #368599;
+}
+
+.newParentLink {
+  border: none;
+  background: #3AC8EC;
+  width: 25%;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+  color: #368599;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
