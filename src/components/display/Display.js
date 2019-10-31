@@ -17,9 +17,29 @@ export default class Display extends Component {
         })
         return (
             <div>
-               <p>display</p>
+            <header>
+                    <h1 className='title'>Children and balance</h1>
+                </header>
+            <div className='display-container'>
+                <div className='disTitleHdr'>
+               <p className='smallTitle'>Children</p>
+               </div>
+               <div className='kidList'>
+                   <div className='childrenTitle'>
+                   <p className='children'>Children</p>
+                   <button className='addKidBtn'>Add New Child</button>
+                   </div>
                 {kidslist}
+
+                
+                </div>
+                <div className='disTitleHdr'>
+               <p className='smallTitle'>Balance</p>
+               </div>
+                <div className='balance'>
                 <Balance/>
+                </div>
+            </div>
             </div>
         )
     }

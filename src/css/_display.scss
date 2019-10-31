@@ -1,0 +1,83 @@
+.display-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 2%;
+    height: 95vh;
+    background: white;
+    width: 96%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+    margin-top: 2%;
+}
+.disTitleHdr{
+    padding: 1% 0 1% 0;
+    margin-bottom: 2%;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    background: $color6;
+    width: 100%;
+}
+.smallTitle{
+
+    font-size: 50px;
+    font-family: $font2;
+    color: $color1;
+    
+}
+.childrenTitle{
+    display: flex;
+}
+.children{
+    font-size: 40px;
+    font-family: $font2;
+    color: $color1;
+    margin-left: 2%;
+}
+.kidList{
+    height: 25vh;
+    width: 100%;
+}
+.addKidBtn{
+    margin-left: 2%;
+    border: none;
+    background: $color6;
+    width: 20%;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: $font2;
+    color: $color1;
+    box-shadow: 1px 1px 3px  rgba(0, 0, 0, 0.2);
+}
+
+.balance{
+   
+   width: 100%;
+}
+.dopuTitle{
+    font-size: 40px;
+    font-family: $font2;
+    color: $color1;
+    margin-left: 2%;
+    
+}
+.dopuList{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.dopuListTitle{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: $font2;
+    color: $color2;
+}
+.totalTitle{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: $font2;
+    color: $color2;
+}

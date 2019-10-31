@@ -21,8 +21,15 @@ export default class Login extends Component {
     }
     render() {
         return (
+            <div>
+                <header>
+                    <h1 className='title'>Login</h1>
+                </header>
             <div className='login-container'>
-                <h1 className='loginTitle'>Login</h1>
+                <div className='login-container2'>
+                    <div className='titleHdr'>
+                {/* <h1 className='loginTitle'>Login</h1> */}
+                </div>
                 <input className='input' type='email' placeholder='Email' 
                 name='email'>
                 </input>
@@ -33,7 +40,9 @@ export default class Login extends Component {
 
                 <button className='submitBtn' onClick={this.submit}>Submit</button>
 
-               <Link className='newParentLink' to='/register'> <button className='newParentBtn'>New Parent</button></Link>
+               {/* <Link className='newParentLink' to='/register'> <button className='newParentBtn'>New Parent</button></Link> */}
+               </div>
+            </div>
             </div>
         )
     }

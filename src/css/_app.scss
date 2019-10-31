@@ -1,0 +1,39 @@
+body{
+    background: $color7;
+}
+.logo{
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 17%;
+}
+.app-container{
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+.title-container{
+    margin-left: 15%;
+}
+.hdrTitle{
+   margin-bottom: 2%;
+    font-size: 50px;
+    font-family: $font2;
+    color: $color1;
+}
+.hdrTitle2{
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: $font2;
+    color: $color1;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background: $color6;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+   
+    
+
+}

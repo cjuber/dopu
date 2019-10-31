@@ -17,12 +17,19 @@ export default class Register extends Component {
     render() {
         return (
             <div>
-                <h1>Register as a new parent</h1>
-                <input placeholder='Name'></input>
-                <input placeholder='Email'></input>
-                <input placeholder='Password'></input>
-                <Link to='/'> <button>Register</button> </Link>
-                <Link to='/'> <button>Login</button> </Link>
+                <header>
+                    <h1 className='title'>Register a new parent</h1>
+                </header>
+            <div className='register-container'>
+                <div className='titleHdr'>
+                {/* <h1 className='registerTitle'>Register a new parent</h1> */}
+                </div>
+                <input className='input' placeholder='Name'></input>
+                <input className='input' placeholder='Email'></input>
+                <input className='input' placeholder='Password'></input>
+                <Link className='registerLink' to='/'> <button className='registerBtn'>Register</button> </Link>
+                {/* <Link className='registerLink' to='/'> <button className='registerBtn'>Login</button> </Link> */}
+            </div>
             </div>
         )
     }

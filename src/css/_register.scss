@@ -1,0 +1,44 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 25%;
+    height: 60vh;
+    background: white;
+    width: 50%;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    background: white;
+    margin-top: 5%;
+}
+.registerTitle{
+    font-size: 50px;
+    font-family: $font2;
+    margin-bottom: 50px;
+    color: $color1;
+   
+}
+.registerBtn{
+    
+    border: none;
+    background: $color6;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: $font2;
+    color: $color1;
+    box-shadow: 1px 1px 3px  rgba(0, 0, 0, 0.2);
+}
+.registerLink{
+    margin-top: 5%;
+    width: 70%;
+    height: 60px;
+    font-size: 30px;
+    font-family: $font2;
+    color: $color1;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px  rgba(0, 0, 0, 0.2);
+}
